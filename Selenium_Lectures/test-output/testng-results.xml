@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-02T16:03:34 IST" name="Default suite" finished-at="2022-11-02T16:05:06 IST" duration-ms="92292">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T16:03:34 IST" name="Default test" finished-at="2022-11-02T16:05:06 IST" duration-ms="92292">
+      <class name="TestNG.Single_Test">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:03:32 IST" name="openbrowser" finished-at="2022-11-02T16:03:34 IST" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="url()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:03:34 IST" name="url" finished-at="2022-11-02T16:03:39 IST" duration-ms="5373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method is-config="true" signature="maximize()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:03:39 IST" name="maximize" finished-at="2022-11-02T16:03:40 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method is-config="true" signature="getcookies()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:03:40 IST" name="getcookies" finished-at="2022-11-02T16:03:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcookies -->
+        <test-method signature="businesslogic_1()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:03:40 IST" name="businesslogic_1" finished-at="2022-11-02T16:04:23 IST" duration-ms="42980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businesslogic_1 -->
+        <test-method is-config="true" signature="takescreenshot()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:04:23 IST" name="takescreenshot" finished-at="2022-11-02T16:04:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method is-config="true" signature="getcookies()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:04:23 IST" name="getcookies" finished-at="2022-11-02T16:04:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcookies -->
+        <test-method signature="businesslogic_2()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:04:23 IST" name="businesslogic_2" finished-at="2022-11-02T16:05:06 IST" duration-ms="43728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businesslogic_2 -->
+        <test-method is-config="true" signature="takescreenshot()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:05:06 IST" name="takescreenshot" finished-at="2022-11-02T16:05:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method is-config="true" signature="dlcookies()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:05:06 IST" name="dlcookies" finished-at="2022-11-02T16:05:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dlcookies -->
+        <test-method is-config="true" signature="dbconnectionclosd()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:05:06 IST" name="dbconnectionclosd" finished-at="2022-11-02T16:05:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnectionclosd -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestNG.Single_Test@1d9b7cce]" started-at="2022-11-02T16:05:06 IST" name="closebrowser" finished-at="2022-11-02T16:05:07 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestNG.Single_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
