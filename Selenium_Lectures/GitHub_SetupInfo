@@ -1,0 +1,12 @@
+Create GitHub Account
+create repository with your project name
+Open Perspective and select git
+Search into quick access git repository\
+Create new local repository according to your maven project name 
+right click on your project , go to team and share project
+select your local repository to repository option and click on finish
+right click goto team then commit 
+click on double plus icon
+commit all the files to local repository by pressing commit button
+if project is commited to local repository then it will shows the cylinder icon
+

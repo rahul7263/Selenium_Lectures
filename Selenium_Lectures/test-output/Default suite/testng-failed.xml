@@ -7,12 +7,13 @@
         <methods>
           <include name="closebrowser"/>
           <include name="openbrowser"/>
+          <include name="businesslogic_1"/>
           <include name="getcookies"/>
           <include name="dlcookies"/>
+          <include name="businesslogic_2"/>
           <include name="url"/>
           <include name="dbconnectionclosd"/>
           <include name="takescreenshot"/>
-          <include name="businesslogic"/>
           <include name="maximize"/>
         </methods>
       </class> <!-- TestNG.Single_Test -->
