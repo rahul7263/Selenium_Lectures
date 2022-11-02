@@ -9,4 +9,17 @@ right click goto team then commit
 click on double plus icon
 commit all the files to local repository by pressing commit button
 if project is commited to local repository then it will shows the cylinder icon
-
+goto github account then goto developer settings
+in developer setting genrate new token
+give token name same as project name 
+then select repo and select no expiration
+and then genrate token
+copy genrated token 
+go to local repository and select remote and create new remote with origin name
+right click on origin then configure push
+copy your github repository uri
+give user name as your github your name
+paste the token inside passowrd tab
+check store in secure store
+click on finsih  
+goto your project to team to push master branch 
