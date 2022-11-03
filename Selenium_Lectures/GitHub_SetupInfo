@@ -24,5 +24,8 @@ check store in secure store
 click on finsih  
 goto your project to team to push master branch 
 
-pull form github setups
+pull form github setup
+
+go to remotes and configure fetch 
+add the uri and token of repository
 
