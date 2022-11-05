@@ -3,20 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Single_Test">
+      <class name="TestNG.Complete_TestNG">
         <methods>
-          <include name="closebrowser"/>
-          <include name="openbrowser"/>
-          <include name="businesslogic_1"/>
-          <include name="getcookies"/>
-          <include name="dlcookies"/>
-          <include name="businesslogic_2"/>
-          <include name="url"/>
-          <include name="dbconnectionclosd"/>
-          <include name="takescreenshot"/>
-          <include name="maximize"/>
+          <include name="CloseBrowser5"/>
+          <include name="Setup"/>
+          <include name="login2"/>
+          <include name="lunchsite1"/>
         </methods>
-      </class> <!-- TestNG.Single_Test -->
+      </class> <!-- TestNG.Complete_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
