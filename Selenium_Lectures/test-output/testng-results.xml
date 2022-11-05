@@ -1,101 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-04T23:18:11 IST" name="Default suite" finished-at="2022-11-04T23:19:21 IST" duration-ms="69486">
+  <suite started-at="2022-11-05T14:52:43 IST" name="Default suite" finished-at="2022-11-05T14:52:43 IST" duration-ms="71">
     <groups>
-      <group name="functional">
-        <method signature="Complete_TestNG.lunchsite1()[pri:1, instance:TestNG.Complete_TestNG@dbf57b3]" name="lunchsite1" class="TestNG.Complete_TestNG"/>
-        <method signature="Complete_TestNG.login2()[pri:2, instance:TestNG.Complete_TestNG@dbf57b3]" name="login2" class="TestNG.Complete_TestNG"/>
-      </group> <!-- functional -->
     </groups>
-    <test started-at="2022-11-04T23:18:11 IST" name="Default test" finished-at="2022-11-04T23:19:21 IST" duration-ms="69486">
-      <class name="TestNG.Complete_TestNG">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:08 IST" name="Setup" finished-at="2022-11-04T23:18:11 IST" duration-ms="2848" status="PASS">
+    <test started-at="2022-11-05T14:52:43 IST" name="Default test" finished-at="2022-11-05T14:52:43 IST" duration-ms="71">
+      <class name="TestNG.Windows_Based_Popup_Handling">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:23 IST" name="setup" finished-at="2022-11-05T14:52:43 IST" duration-ms="19338" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:11 IST" name="beforetest" finished-at="2022-11-04T23:18:11 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:43 IST" name="aftersuite" finished-at="2022-11-05T14:52:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:11 IST" name="beforeclass" finished-at="2022-11-04T23:18:11 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- aftersuite -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:43 IST" name="aftersuite" finished-at="2022-11-05T14:52:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:11 IST" name="beforemethod" finished-at="2022-11-04T23:18:11 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- aftersuite -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:43 IST" name="aftersuite" finished-at="2022-11-05T14:52:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="lunchsite1()[pri:1, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:11 IST" name="lunchsite1" description="lunch the website" finished-at="2022-11-04T23:18:30 IST" duration-ms="18581" status="PASS">
+        </test-method> <!-- aftersuite -->
+        <test-method signature="aftersuite()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:43 IST" name="aftersuite" finished-at="2022-11-05T14:52:43 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lunchsite1 -->
-        <test-method is-config="true" signature="after_mehtod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:30 IST" name="after_mehtod" finished-at="2022-11-04T23:18:30 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- aftersuite -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:43 IST" name="aftersuite" finished-at="2022-11-05T14:52:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after_mehtod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:30 IST" name="beforemethod" finished-at="2022-11-04T23:18:30 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- aftersuite -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:43 IST" name="aftersuite" finished-at="2022-11-05T14:52:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2()[pri:2, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:30 IST" name="login2" description="User Login Test" finished-at="2022-11-04T23:18:55 IST" depends-on-methods="TestNG.Complete_TestNG.lunchsite1" duration-ms="25238" status="PASS">
+        </test-method> <!-- aftersuite -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:43 IST" name="aftersuite" finished-at="2022-11-05T14:52:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after_mehtod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:55 IST" name="after_mehtod" finished-at="2022-11-04T23:18:55 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- aftersuite -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:TestNG.Windows_Based_Popup_Handling@123ef382]" started-at="2022-11-05T14:52:43 IST" name="aftersuite" finished-at="2022-11-05T14:52:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after_mehtod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:55 IST" name="beforemethod" finished-at="2022-11-04T23:18:55 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2()[pri:2, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:18:55 IST" name="login2" description="User Login Test" finished-at="2022-11-04T23:19:21 IST" depends-on-methods="TestNG.Complete_TestNG.lunchsite1" duration-ms="25581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after_mehtod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="after_mehtod" finished-at="2022-11-04T23:19:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_mehtod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="beforemethod" finished-at="2022-11-04T23:19:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="currenturl3()[pri:3, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="currenturl3" description="current url" finished-at="2022-11-04T23:19:21 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- currenturl3 -->
-        <test-method is-config="true" signature="after_mehtod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="after_mehtod" finished-at="2022-11-04T23:19:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_mehtod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="beforemethod" finished-at="2022-11-04T23:19:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="titletest4()[pri:4, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="titletest4" description="title" finished-at="2022-11-04T23:19:21 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titletest4 -->
-        <test-method is-config="true" signature="after_mehtod()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="after_mehtod" finished-at="2022-11-04T23:19:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_mehtod -->
-        <test-method is-config="true" signature="after_class()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="after_class" finished-at="2022-11-04T23:19:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_class -->
-        <test-method is-config="true" signature="after_test()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="after_test" finished-at="2022-11-04T23:19:21 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_test -->
-        <test-method is-config="true" signature="after_suite()[pri:0, instance:TestNG.Complete_TestNG@dbf57b3]" started-at="2022-11-04T23:19:21 IST" name="after_suite" finished-at="2022-11-04T23:19:21 IST" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_suite -->
-      </class> <!-- TestNG.Complete_TestNG -->
+        </test-method> <!-- aftersuite -->
+      </class> <!-- TestNG.Windows_Based_Popup_Handling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

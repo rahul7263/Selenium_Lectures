@@ -12,7 +12,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -71,7 +78,7 @@ public class Complete_TestNG {
 	  
 		
 	}
-	@Test(priority = 2,description = "User Login Test",alwaysRun=true,dependsOnMethods= {"lunchsite1"},invocationCount =2,groups= {"functional"})	
+	@Test(priority = 2,description = "User Login Test",alwaysRun=true,dependsOnMethods= {"lunchsite1"},invocationCount =1,groups= {"functional"})	
 	public void login2() throws InterruptedException {
 		
 		 Actions act = new Actions(driver);
@@ -111,6 +118,15 @@ public class Complete_TestNG {
 		
 		String title = driver.getTitle();
 		System.out.println(title);
+	}
+	
+	@Test(priority=5,description="take a screenshot",groups={"functional"})
+	public void screenshot() throws IOException {
+		
+		System.out.println("screenshot taken");
+		
+		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFileToDirectory(src,new File("C:\\Users\\Rahul\\git\\Selenium_Lectures\\Selenium_Lectures\\Screenshots"));
 	}
 	
 	@AfterMethod
