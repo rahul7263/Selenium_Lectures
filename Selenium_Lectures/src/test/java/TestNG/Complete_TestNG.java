@@ -8,6 +8,15 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameters;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
@@ -32,7 +41,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Ignore;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 
 import dev.failsafe.internal.util.Assert;
@@ -44,7 +55,7 @@ public class Complete_TestNG {
 	WebDriver driver;
 	
 
-	@BeforeSuite(groups={"funcational"})
+	@BeforeSuite(groups={"functional"})
     public void Setup() {
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\Software Testing Course\\Automation Manual Testing\\chromedriver_win32\\chromedriver.exe");
@@ -78,8 +89,10 @@ public class Complete_TestNG {
 	  
 		
 	}
-	@Test(priority = 2,description = "User Login Test",alwaysRun=true,dependsOnMethods= {"lunchsite1"},invocationCount =1,groups= {"functional"})	
-	public void login2() throws InterruptedException {
+	
+	//@Parameters({"username","password"})
+	@Test(priority = 2,dataProvider="DP",description = "User Login Test",alwaysRun=true,dependsOnMethods= {"lunchsite1"},invocationCount =1,groups= {"functional"})	
+	public void login2(String name,/*@Optional*/("Sushil@123")String pass) throws InterruptedException {
 		
 		 Actions act = new Actions(driver);
 		act.click(driver.findElement(By.xpath("(//a[@class=\"dropdown-toggle\"])[2]"))).perform();
@@ -88,10 +101,10 @@ public class Complete_TestNG {
 		driver.findElement(By.xpath("(//a[contains(text(),\"User Login\")])[2]")).click();
 		Thread.sleep(3000);
 		
-		driver.findElement(By.xpath("//input[@id=\"sign_user_email\"]")).sendKeys("sonawanesushil57@gmail.com");
+		driver.findElement(By.xpath("//input[@id=\"sign_user_email\"]")).sendKeys(name);
 		Thread.sleep(3000);
 		
-		driver.findElement(By.xpath("//input[@id=\"sign_user_password\"]")).sendKeys("Sushil@123");
+		driver.findElement(By.xpath("//input[@id=\"sign_user_password\"]")).sendKeys(pass);
 		Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("(//button[contains(text(),\"Log in\")])[1]")).click();
@@ -134,6 +147,10 @@ public class Complete_TestNG {
 		
 		System.out.println("this is the after method");
 	}
+	
+	@DataProvider(name ="DP")
+    public static Object[][] loginCredentails{
+		return new [][] {"sushilsonawane@gmail.com","Sushil@123"},{"sushilsonawane@gmail.com","Sushil@123"},{"sushilsonawane@gmail.com","Sushil@123"}
 	
 	//@Ignore
 	@AfterClass
