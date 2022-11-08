@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AssertionDemo.SofAssertonDemo">
+      <class name="TestNG.Single_Test">
         <methods>
-          <include name="testcase1"/>
+          <include name="closebrowser"/>
+          <include name="openbrowser"/>
+          <include name="getcookies"/>
+          <include name="dlcookies"/>
+          <include name="businesslogic_2"/>
+          <include name="url"/>
+          <include name="dbconnectionclosd"/>
+          <include name="takescreenshot"/>
+          <include name="maximize"/>
         </methods>
-      </class> <!-- AssertionDemo.SofAssertonDemo -->
+      </class> <!-- TestNG.Single_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
