@@ -53,6 +53,7 @@ public class Single_Test {
 		Actions act = new Actions(driver);
 		act.click(driver.findElement(By.xpath("(//a[@class=\"dropdown-toggle\"])[2]"))).perform();
 		Thread.sleep(3000);
+		
 		driver.findElement(By.xpath("(//a[contains(text(),'User Login')])[2]")).click();
         Thread.sleep(3000);
         
